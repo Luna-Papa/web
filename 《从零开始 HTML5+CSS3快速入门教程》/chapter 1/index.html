@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0 user-scale">
+    <title>Document</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            border-top: 1px solid transparent;
+            position: absolute;
+            top: 50%;
+            text-align: center;
+            /*width: 100%;*/
+            /*让div 沿Y轴平移自身高度的一半*/
+            transform: translateY(-50%);
+            padding: 0 20px;
+            width: calc(100% - 40px);
+        }
+        body {
+            background: red url("img/index.jpg") center center;
+            background-size: cover;
+            position: relative;
+        }
+        h1 {
+            line-height: 90px;
+            color: #ffffff;
+            font-size: 50px;
+        }
+        p {
+            line-break: inherit;
+            /*line-break 可以用来处理如何断开（break lines）带有标点符号的中文、日文或韩文（CJK）文本的行。*/
+            font-size: 22px;
+            color: #ffffff;
+        }
+        .btn {
+            width: 200px;
+            height: 60px;
+            background-color: #7cacae;
+            color: #fff;
+            font-size: 24px;
+            line-height: 60px;
+            margin: 30px auto;
+            border-radius: 10px;
+            transition: 1s;
+        }
+        .btn:hover {
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            line-height: 100px;
+            margin: 100px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Let's start our first page !</h1>
+        <p>欢迎大家来到HTML乐园，通过本书的学习，你将获得独立完成静态页面的技能，
+            一起来开启你的第一个页面吧！
+        </p>
+        <div class="btn">Start</div>
+    </div>
+
+</body>
+</html>
