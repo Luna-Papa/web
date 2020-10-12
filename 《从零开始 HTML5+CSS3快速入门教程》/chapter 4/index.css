@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    background: #111111;
+    height: 100%;
+    color: white;
+    font-family: "Microsoft YaHei UI", serif;
+}
+.container {
+    margin: auto;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 10%;
+    margin-bottom: 40px;
+}
+.title {
+    /*margin-top: 30px;*/
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei UI Light", serif;
+}
+span {
+    display: inline-block;
+    /*margin-right: 60px;*/
+    font-size: small;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+p {
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+button {
+    background-color: orange;
+    margin: auto;
+    height: 40px;
+    width: 280px;
+    color: black;
+    border: none;
+    text-align: center;
+}
+span:hover {
+    border-top: 4px solid orange;
+}
