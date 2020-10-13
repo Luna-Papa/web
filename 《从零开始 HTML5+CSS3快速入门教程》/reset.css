@@ -22,3 +22,8 @@ a:hover,a:active,a:focus {
     color: #c00;
     text-decoration: underline;
 }
+.clearfix:after {
+    clear: both;
+    display: block;
+    content: "";
+}

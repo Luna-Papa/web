@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chapter 5</title>
+    <link rel="stylesheet" href="../reset.css">
+    <style>
+        .fl {
+            float: left;
+        }
+        .fr {
+            float: right;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+        .header{
+            width: 80vw;
+            height: 80px;
+            /*border: 1px solid orange;*/
+            background-color: gray;
+            margin: 0 auto;
+            padding: 0 12px;
+        }
+        .header .logo{
+            margin-top: 28px;
+            margin-left: 12px;
+            /*margin-top: 50%;*/
+            /*transform: translateY(-50%);*/
+        }
+        .header .nav{
+            margin-top: 32px;
+        }
+        .header .nav img{
+            margin-right: 20px;
+        }
+        .main{
+            margin: 0 auto;
+            width:100vw;
+            /*background-color: orange;*/
+            overflow: hidden;
+        }
+        .main .nav{
+            margin:70px auto 10px auto;
+            width: 30vw;
+            /*margin-bottom: 20px;*/
+            /*margin-left: 50%;*/
+            /*transform: translateX(-50%);*/
+        }
+        .main .nav span{
+            /*display: block;*/
+            border: 2px solid #f2f2f2;
+            width: 40px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 12px;
+            margin-right: 8px;
+            padding: 0 8px;
+        }
+        .main .picture{
+            width: 1158px;
+            margin: 0 auto;
+            /*overflow: hidden;*/
+        }
+        .main .picture li{
+            margin: 5px;
+        }
+        .main .picture li img{
+            width: 376px;
+            height: 211px;
+        }
+        .footer{
+            width: 100vw;
+            background-color: black;
+            /*margin: 0 auto;*/
+            color: white;
+            height: 180px;
+            overflow:hidden;
+        }
+        .footer .tips{
+            width: 260px;
+            height: 20px;
+            margin: 44px auto 0 auto;
+            /*text-align: center;*/
+        }
+        .footer .tips i{
+            width: 20px;
+            height: 20px;
+            /*margin-top: 20px;*/
+            margin-right: 20px;
+            /*background-repeat: no-repeat;*/
+        }
+        .footer .tips i:nth-of-type(1){
+            background: url("image/contact.png");
+        }
+        .footer .tips i:nth-of-type(2){
+            background: url("image/dribble.png");
+        }
+        .footer .tips i:nth-of-type(3){
+            background: url("image/contact1.png");
+        }
+        .footer .tips i:nth-of-type(4){
+            background: url("image/facebook.png");
+        }
+        .footer .tips i:nth-of-type(5){
+            background: url("image/google.png");
+        }
+        .footer .tips i:nth-of-type(6){
+            background: url("image/twitter.png");
+        }
+        .footer p{
+            margin-top: 21px;
+            font-size: 12px;
+            text-align: center;
+            height: 20px;
+            line-height: 20px;
+            color: #919191;
+            font-family: "Microsoft YaHei UI Light", serif;
+        }
+        /*.footer ul{*/
+        /*    margin-bottom: 20px;*/
+        /*}*/
+        /*.footer ul li{*/
+        /*    font-size: 12px;*/
+        /*    text-align: center;*/
+        /*    line-height: 12px;*/
+
+        /*}*/
+        .footer .contact{
+            font-size: 12px;
+            color: #919191;
+            height: 20px;
+            line-height: 20px;
+            margin: 25px auto 0 auto;
+            width: 322px;
+            padding-bottom: 15px;
+        }
+        .footer .contact li{
+            margin-right: 10px;
+        }
+        .footer .contact li:last-of-type{
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="header clearfix">
+            <img src="image/logo.png" alt="" class="logo fl">
+            <div class="fr nav">
+                <img src="image/bag.png" alt="" class="fl">
+                <img src="image/列表.png" alt="" class="fl">
+                <img src="image/search.png" alt="" class="fl">
+            </div>
+        </div>
+        <div class="main">
+            <div class="nav clearfix">
+                <span class="fl">全部</span>
+                <span class="fl">人物</span>
+                <span class="fl">动物</span>
+                <span class="fl">山脉</span>
+                <span class="fl">水</span>
+            </div>
+            <ul class="picture clearfix">
+                <li class="fl"><img src="image/animal-2-1200x800.jpg" alt=""></li>
+                <li class="fl"><img src="image/animal-3-1200x760.jpg" alt=""></li>
+                <li class="fl"><img src="image/animal-4-640x360.jpg" alt=""></li>
+                <li class="fl"><img src="image/animal-5-1200x795.jpg" alt=""></li>
+                <li class="fl"><img src="image/animal-6-1200x803.jpg" alt=""></li>
+                <li class="fl"><img src="image/mountains-1-1200x795.jpg" alt=""></li>
+                <li class="fl"><img src="image/mountains-2-1200x490.jpg" alt=""></li>
+                <li class="fl"><img src="image/mountains-3-1200x443.jpg" alt=""></li>
+                <li class="fl"><img src="image/mountains-5-1200x443.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <div class="tips clearfix">
+                <i class="fl"></i>
+                <i class="fl"></i>
+                <i class="fl"></i>
+                <i class="fl"></i>
+                <i class="fl"></i>
+                <i class="fl"></i>
+                <i class="fl"></i>
+            </div>
+            <p>©2015-2019 Denali – Powered by WordPress, Template by NonoSpace</p>
+            <ul class="clearfix contact">
+                <li class="fl">价格表格</li>
+                <li class="fl">联系我们</li>
+                <li class="fl">隐私政策</li>
+                <li class="fl">服务条款</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

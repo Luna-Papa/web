@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chapter 5 5-7</title>
+    <link rel="stylesheet" href="../reset.css">
+    <style>
+        .fl {
+            float: left;
+        }
+        .fr{
+            float: right;
+        }
+        .nav{
+            height: 88px;
+            border-bottom: 2px solid #e8e8e8;
+            margin-top: 100px;
+            /*background-color: #fdf5de;*/
+        }
+        .nav .logo{
+            margin: 0 0 0 80px;
+            /*width: 100px;*/
+            height: 88px;
+            line-height: 88px;
+            /*background-color: #f9809f;*/
+        }
+        .nav .main{
+            margin-left: 60px;
+            /*width: 100px;*/
+            height: 88px;
+            line-height: 88px;
+            /*background-color: #2fbdbf;*/
+        }
+        .nav .user{
+            margin: 0 16px 0 60px;
+            /*width: 100px;*/
+            height: 88px;
+            line-height: 88px;
+            /*background-color: #86d5bf;*/
+        }
+        .nav .main a {
+            text-decoration: none;
+            margin: 0 12px;
+        }
+        .nav .user a {
+            font-size: 14px;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 18px;
+            margin: 22px 0;
+        }
+        .nav .user a:nth-of-type(1){
+            background-color: #28292a;
+            margin-right: 20px;
+            color: #ffffff;
+        }
+        .nav .user a:nth-of-type(2){
+            background-color: #ffd40d;
+            /*margin-right: 20px;*/
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav clearfix">
+        <div class="logo fl">
+            <img src="img/logo1.jpg" alt="">
+        </div>
+        <div class="main fl">
+            <a>品牌讯息</a>
+            <a>服务指南</a>
+            <a>工厂信息</a>
+            <a>公司简介</a>
+            <a>招聘</a>
+        </div>
+        <div class="user fr">
+            <a class="fl">联系我们</a>
+            <a class="fl">登录</a>
+        </div>
+    </div>
+</body>
+</html>

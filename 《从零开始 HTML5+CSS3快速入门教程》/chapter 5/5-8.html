@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chapter 5 5-8</title>
+    <link rel="stylesheet" href="../reset.css">
+    <style>
+        .fl {
+            float: left;
+        }
+        .fr {
+            float: right;
+        }
+        .page{
+            width: 395px;
+            height: 180px;
+            /*border: 1px solid #000000;*/
+        }
+        .img{
+            width: 180px;
+            height: 180px;
+            background-color: #dcc6b9;
+        }
+        .info{
+            width: 180px;
+            height: 180px;
+            /*background-color: #f5dd87;*/
+            margin-left: 34px;
+        }
+        .title{
+            width: 161px;
+            font-size: 16px;
+            line-height: 22px;
+            margin-top: 11px;
+        }
+        .info-detail{
+            margin-top: 12px;
+            line-height: 28px;
+            font-size: 12px;
+            color: #989898;
+        }
+        .progress{
+            background-color: #FFE4DC;
+            width: 159px;
+            height: 6px;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        .progress .sold{
+            width: 30%;
+            height: 6px;
+            background-color: red;
+        }
+        .sold {
+            color: #FE3338;
+            line-height: 28px;
+            height: 28px;
+            font-size: 12px;
+        }
+        .sold span:nth-of-type(2){
+            margin-right: 20px;
+        }
+        .price span:nth-of-type(1){
+            font-size: 12px;
+            color: red;
+        }
+        .price span:nth-of-type(2){
+            font-size: 19px;
+            color: #ff6113;
+            margin-right: 10px;
+        }
+        .price span:nth-of-type(3){
+            font-size: 12px;
+            color: #989898;
+            text-decoration: line-through;
+            margin-left: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page clearfix">
+        <div class="img fl">
+            <img src="img/taobao.jpg" alt="">
+        </div>
+        <div class="info fl">
+            <p class="title">[ 限时89元 ] 天猫精灵方糖</p>
+            <p class="info-detail">力省110，套装更优惠</p>
+            <div class="progress">
+                <div class="sold"></div>
+            </div>
+            <p class="sold clearfix">
+                <span class="fl">10%</span>
+                <span class="fr">已抢1105件</span>
+            </p>
+            <p class="price">
+                <span>$</span>
+                <span>89</span>
+                <span class="price">$199.00</span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
