@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../../reset.css">
+    <style>
+        table{
+            margin: 100px auto;
+            border-collapse: collapse;
+        }
+        caption{
+            height: 20px;
+            margin-bottom: 40px;
+            font-size: 20px;
+        }
+       thead tr{
+           font-size: 16px;
+           background-color: #f1c15a;
+           color: #d34c2f;
+           font-weight: bold;
+           text-align: center;
+           height: 40px;
+       }
+       tbody tr td{
+           width: 114px;
+           height: 52px;
+           text-align: center;
+           font-size: 14px;
+           color: #221e1f;
+       }
+       /*表格奇数行的奇数列*/
+        table tr:nth-of-type(2n+1) td:nth-of-type(2n+1){
+            background-color:#e2e2e3;
+        }
+        /*表格奇数行的偶数列*/
+        table tr:nth-of-type(2n+1) td:nth-of-type(2n){
+            background-color:#ececed;
+        }
+        table tr:nth-of-type(2n) td:nth-of-type(2n+1){
+            background-color:#f1f4f4;
+        }
+        table tr:nth-of-type(2n) td:nth-of-type(2n){
+            background-color:#e7eaea;
+        }
+        table img {
+            width: 22px;
+            height: 22px;
+        }
+        #Saturday{
+            background-color: #dbdede;
+            color: #d34c2f;
+        }
+       /*tbody tr td:nth-of-type(2n){*/
+       /*    background-color: #ececed;*/
+       /*}*/
+       /* thead tr td:nth-of-type(2n){*/
+       /*     background-color: #f1c15a;*/
+       /* }*/
+    </style>
+</head>
+<body>
+    <table>
+        <caption>WEATHER FO RECAST</caption>
+        <thead>
+            <tr>
+                <th colspan="2">日期</th>
+                <th colspan="2">天气现象</th>
+                <th>气温</th>
+                <th>风向</th>
+                <th>风力</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">22日星期五</td>
+                <td>白天</td>
+                <td><img src="img/tianqiicon_duoyun_baitian(1).png" alt=""></td>
+                <td>晴间多云</td>
+                <td>高温7℃</td>
+                <td>无持续风向</td>
+                <td>微风</td>
+            </tr>
+            <tr>
+                <td>夜间</td>
+                <td><img src="img/tianqiicon_qingtian_heiye.png" alt=""></td>
+                <td>晴</td>
+                <td>低温-4℃</td>
+                <td>无持续风向</td>
+                <td>微风</td>
+            </tr>
+            <tr>
+                <td rowspan="2" id="Saturday">23日星期六</td>
+                <td>白天</td>
+                <td><img src="img/tianqiicon_qingtian_baitian.png" alt=""></td>
+                <td>晴</td>
+                <td>高温9℃</td>
+                <td>无持续风向</td>
+                <td>微风</td>
+            </tr>
+            <tr>
+                <td>夜间</td>
+                <td><img src="img/tianqiicon_zhenyu_yewan.png" alt=""></td>
+                <td>小雨</td>
+                <td>低温-2℃</td>
+                <td>无持续风向</td>
+                <td>微风</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

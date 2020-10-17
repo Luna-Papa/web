@@ -1,0 +1,86 @@
+.center_frame{
+    background: url("img/login-form.png");
+    width: 800px;
+    height: 600px;
+    margin: 60px auto;
+    overflow: hidden;
+}
+.login_frame{
+    width: 475px;
+    height: 474px;
+    margin:94px auto;
+    overflow: hidden;
+}
+.login_frame p:nth-of-type(1){
+    margin-top: 66px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 36px;
+    color: #36383c;
+    height: 36px;
+}
+.login_frame p:nth-of-type(2){
+    /*margin-top: 66px;*/
+    font-size: 22px;
+    text-align: center;
+    line-height: 28px;
+    height: 28px;
+    color: #7c818b;
+}
+.login_form{
+    height: 169px;
+    width: 385px;
+    margin: 43px auto 0;
+    background-color: #e5e7e9;
+    box-shadow: 0 2px 0 0 #ffffff,
+    inset 0 1px 3px 0
+    rgba(23, 16, 25, 0.45);
+    border: 1px solid #adaeb0;
+    border-radius: 6px;
+    position: relative;
+}
+.login_frame .email i{
+    background: url(img/mail-icon.png);
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    top: 31px;
+    left: 24px;
+}
+.login_frame .password i{
+    width: 24px;
+    height: 32px;
+    position: absolute;
+    top: 111px;
+    left: 28px;
+    display: block;
+    background: url(img/password-icon.png);
+}
+.login_form input{
+    width: 315px;
+    height: 83px;
+    font-size: 22px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    padding-left: 70px;
+    outline: none;
+}
+.login_form input:first-of-type{
+    border-bottom: 1px solid #bec0c2;
+}
+.btn{
+    background-color: #2a8b7b;
+    width: 385px;
+    height: 74px;
+    text-align: center;
+    box-shadow: 0 1px 3px 0
+    rgba(0, 0, 0, 0.3),
+    inset 0 2px 0 0
+    rgba(255, 255, 255, 0.4);
+    border: solid 1px #2a8b7b;
+    color: white;
+    font-size: 32px;
+    border-radius: 6px;
+    margin: 27px auto 0 auto;
+    outline: none;
+}
